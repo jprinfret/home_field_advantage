@@ -1,14 +1,23 @@
-Home_Field_Advantage
-Home_Field_Advantage Project Repo
+# Evaluating Home Field Advantage in the NFL, NHL, MLB, and NBA
 
-This project looks at the 4 major sports leagues and determines whether or not there is a statistical significance to the idea of home field advantage. This project uses the 2018/2019 seasons (depending on whether or not that sport's season was completed at the time of this project (e.g., the 2019 baseball season was completed as of this project so we used the 2019 baseball season data).
+## The data
+[Sports Data iO](https://sportsdata.io/) offers a free-trial to their sports data api, which allowed us to pull regular season data for NFL, NHL, and MLB. 
 
-Partners were JP Rinfret and Samuel Diaz
+[Rapid API](https://rapidapi.com/) offers a free-trial to their sports api, which allowed us to pull regular season data for the NBA.
 
-Questions asked:
+We then calculcated a home point differential (home team score minus away team score), which was the focus of our project.
 
-Can we say that statistical evidence exists to support the idead of home field advantage exists. H0: x_bar_sport =< 0 H1: x_bar_sport > 0 where x_bar_sport equals the sample mean of the 'home team point differential' column of our dataframe
+## Questions asked:
+1.
+2.
+3.
 
-Results:
+## The Results:
+1.
+2.
+3.
 
-There exists stastical evidence of home field advantage in three of the four major professional sport leagues (Football, Hockey, and Basketball), while there exists no statistical evidence of a home field advantage in Baseball.
+## Future Applications and Importance
+Being able to quantify/analyze the concept of "home field advantage" is something that sports staticians have debated for a few years now. There are serious limitations to the data used (e.g., is the 2018 regular season truly a random sample of the population?), however the results are conclusive/meaningful. 
+
+As sports beating moves closer and closer to being legal, this information can be valuable to gamblers (until it is widely recognized and priced out, if not already).
